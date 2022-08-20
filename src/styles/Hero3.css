@@ -19,7 +19,7 @@
 .hero3-left p {
   color: var(--white-color);
   line-height: 35px;
-  font-size: var(--font-med);
+  font-size: var(--font-medium);
 }
 
 .hero3-right {

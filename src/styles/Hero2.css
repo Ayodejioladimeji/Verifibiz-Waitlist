@@ -30,7 +30,7 @@
 .hero2-right p {
   color: var(--white-color);
   line-height: 35px;
-  font-size: var(--font-med);
+  font-size: var(--font-medium);
 }
 
 @media (max-width: 1000px) {

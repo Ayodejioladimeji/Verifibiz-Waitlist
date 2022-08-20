@@ -26,7 +26,7 @@
   line-height: 40px;
   font-family: "Alfa Slab One";
   -webkit-text-stroke: 1px var(--white-color);
-  font-size: var(--font-large);
+  font-size: var(--font-larger);
   color: var(--primary-color);
 }
 

@@ -14,7 +14,7 @@
 
 .newsletter p {
   color: var(--white-color);
-  font-size: var(--font-med);
+  font-size: var(--font-medium);
   line-height: 30px;
   font-family: "Roboto";
 }
