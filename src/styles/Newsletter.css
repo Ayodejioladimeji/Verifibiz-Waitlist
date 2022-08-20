@@ -15,6 +15,7 @@
 .newsletter p {
   color: var(--white-color);
   font-size: var(--font-med);
+  line-height: 30px;
 }
 
 .waitlist-div {
@@ -51,6 +52,7 @@
   .newsletter {
     width: 95%;
     text-align: center;
+    margin-top: 0;
   }
 
   .waitlist-div {

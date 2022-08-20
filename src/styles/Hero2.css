@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70vh;
   margin-bottom: 110px;
 }
 
@@ -48,8 +47,7 @@
 @media (max-width: 768px) {
   .hero2 {
     flex-direction: column;
-    height: 100vh;
-    margin-bottom: 120px;
+    margin-bottom: 170px;
   }
 
   .hero2-left {
@@ -68,5 +66,13 @@
 @media (max-width: 500px) {
   .hero2-left h1 {
     font-size: var(--font-bigger);
+  }
+
+  .hero2-left img {
+    object-fit: contain;
+  }
+
+  .hero2-right {
+    margin-top: -50px;
   }
 }

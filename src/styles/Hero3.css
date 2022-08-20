@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70vh;
   margin-bottom: 150px;
 }
 
@@ -48,14 +47,14 @@
 @media (max-width: 768px) {
   .hero3 {
     flex-direction: column-reverse;
-    height: 100vh;
-    margin-bottom: 80px;
+    margin-bottom: 170px;
   }
 
   .hero3-left {
     width: 100%;
     text-align: center;
     padding: 10px;
+    margin-top: -50px;
   }
 
   .hero3-right {
@@ -66,6 +65,11 @@
 }
 
 @media (max-width: 500px) {
+  .hero3 {
+    flex-direction: column-reverse;
+    /* margin-bottom: 10px; */
+  }
+
   .hero3-left h1 {
     font-size: var(--font-bigger);
   }
