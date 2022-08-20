@@ -5,12 +5,12 @@ const Hero5 = () => {
   return (
     <div className="hero3">
       <div className="hero3-left">
-        <h3>THERE IS A LOT MORE</h3>
+        <h3>MORE GOODIES...</h3>
         <p>
           There is a lot more we would like to share with you but where is the
-          fun in knowing everything now? (winks). If we have piqued your
-          interest, let us know by getting on the waitlist. We would let you
-          know as soon as we launch.
+          fun in knowing everything now? 😉. If we have piqued your interest,
+          let us know by getting on the waitlist. We would let you know as soon
+          as we launch.
         </p>
       </div>
 

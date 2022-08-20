@@ -29,7 +29,8 @@
     padding: 20px 10px;
   }
 
-  .nav-button button {
-    display: none;
+  .nav-brand img {
+    width: 90px;
+    margin-top: -15px;
   }
 }

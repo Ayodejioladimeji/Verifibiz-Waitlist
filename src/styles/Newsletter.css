@@ -6,7 +6,7 @@
   border-radius: 5px;
   box-shadow: var(--shadow);
   margin-bottom: 100px;
-  padding: 70px 10px;
+  padding: 30px 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -16,6 +16,7 @@
   color: var(--white-color);
   font-size: var(--font-med);
   line-height: 30px;
+  font-family: "Roboto";
 }
 
 .waitlist-div {
@@ -63,6 +64,7 @@
 @media (max-width: 400px) {
   .waitlist-div {
     flex-direction: column;
+    height: 100%;
   }
 
   .waitlist-div input {
