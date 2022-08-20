@@ -1,0 +1,20 @@
+.footer {
+  padding: 40px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white-color);
+}
+
+.social-icons {
+  margin-bottom: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons .fa {
+  font-size: var(--font-biggest);
+  color: var(--primary-color);
+}

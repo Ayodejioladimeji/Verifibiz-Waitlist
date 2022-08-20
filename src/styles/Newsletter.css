@@ -1,0 +1,47 @@
+.newsletter {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  margin-bottom: 100px;
+  padding: 70px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletter p {
+  color: var(--white-color);
+  font-size: var(--font-med);
+}
+
+.waitlist-div {
+  margin-top: 40px;
+  display: flex;
+  /* border: 1px solid var(--primary-color); */
+  height: 50px;
+  border-radius: 25px;
+  width: 500px;
+}
+
+.waitlist-div input {
+  width: 70%;
+  border-radius: 25px 0 0 25px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+
+.waitlist-div button {
+  width: 30%;
+  border-radius: 0 25px 25px 0;
+  border: none;
+  background: var(--primary-color);
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 600;
+  font-family: var(--nunito);
+  font-size: var(--font-mid);
+}
