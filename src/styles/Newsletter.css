@@ -45,3 +45,36 @@
   font-family: var(--nunito);
   font-size: var(--font-mid);
 }
+
+/* THE RESPONSIVENESS */
+@media (max-width: 600px) {
+  .newsletter {
+    width: 95%;
+    text-align: center;
+  }
+
+  .waitlist-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .waitlist-div {
+    flex-direction: column;
+  }
+
+  .waitlist-div input {
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+  }
+
+  .waitlist-div button {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+}

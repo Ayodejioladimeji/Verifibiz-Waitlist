@@ -9,6 +9,7 @@
 
 .hero-left {
   width: 40%;
+  margin-left: 30px;
 }
 
 .hero-left h3 {
@@ -55,7 +56,7 @@
 
 @media (max-width: 900px) {
   .hero {
-    height: 90vh;
+    height: 80vh;
     padding-top: 0;
   }
 }
@@ -68,7 +69,7 @@
   .hero-left {
     width: 100%;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -10px;
     padding: 10px;
   }
 
@@ -83,7 +84,7 @@
     font-size: var(--font-bigger);
   }
 
-  .hero-right img {
-    object-fit: contain;
+  .hero-left {
+    margin-left: 0;
   }
 }

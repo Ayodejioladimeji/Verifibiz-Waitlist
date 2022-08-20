@@ -3,8 +3,8 @@ import hero3 from "../assets/hero3.svg";
 
 const Hero3 = () => {
   return (
-    <div className="hero2">
-      <div className="hero2-left">
+    <div className="hero3">
+      <div className="hero3-left">
         <h3>WHAT CAN YOU BUY</h3>
         <p>
           You can buy anything, anywhere from an online vendor using our
@@ -14,7 +14,7 @@ const Hero3 = () => {
         </p>
       </div>
 
-      <div className="hero2-right">
+      <div className="hero3-right">
         <img src={hero3} alt="" />
       </div>
     </div>
