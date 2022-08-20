@@ -70,6 +70,10 @@
     /* margin-bottom: 10px; */
   }
 
+  .hero3-left {
+    margin-top: -20px;
+  }
+
   .hero3-left h1 {
     font-size: var(--font-bigger);
   }
