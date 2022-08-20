@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   margin-bottom: 160px;
+  padding-top: 50px;
 }
 
 .hero-left {
@@ -30,10 +31,59 @@
 /* =============== */
 .hero-right {
   width: 50%;
+  height: 100%;
 }
 
 .hero-right img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* THE RESPONSIVESS */
+@media (max-width: 1000px) {
+  .hero-left {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  .hero-right {
+    height: 70%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    height: 90vh;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-left {
+    width: 100%;
+    text-align: center;
+    margin-top: -70px;
+    padding: 10px;
+  }
+
+  .hero-right {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-left h1 {
+    font-size: var(--font-bigger);
+  }
+
+  .hero-right img {
+    object-fit: contain;
+  }
 }

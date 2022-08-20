@@ -22,3 +22,14 @@
   width: 120px;
   font-weight: 600;
 }
+
+/* =========THE RESPONSIVENESS========= */
+@media (max-width: 500px) {
+  .nav {
+    padding: 20px 10px;
+  }
+
+  .nav-button button {
+    display: none;
+  }
+}
