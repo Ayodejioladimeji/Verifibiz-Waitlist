@@ -15,6 +15,7 @@
   --input-background: linear-gradient(87.75deg, #0b101d 1.89%, #172038 96.74%);
   --tertiary-color: #9ba5b2;
   --white-color: #ffffff;
+  --white: #ffffff;
   --blue-color: #3772ff;
   --border-color: rgba(157, 165, 178, 0.17);
   --body: #172038;
@@ -51,4 +52,29 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.light-theme {
+  --body-background: #fff;
+  /* --primary-color: #351590; */
+  --primary-color: #ce3a2c;
+  --white-color: #0b101d;
+  --stroke-color: transparent;
+  --primary: #351590;
+}
+
+/* the dark theme */
+.dark-theme {
+  --body-background: linear-gradient(87.75deg, #0b101d 1.89%, #172038 96.74%);
+  --primary-color: #ce3a2c;
+  --white-color: #fff;
+  --stroke-color: #fff;
+  --primary: #ce3a2c;
+}
+
+.sun {
+  margin-right: 20px;
+  margin-bottom: -3px;
+  color: var(--white-color);
+  cursor: pointer;
 }
