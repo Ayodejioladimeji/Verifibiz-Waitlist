@@ -14,8 +14,7 @@ const Hero2 = () => {
           We are Verifibiz! An escrow service platform to mitigate the social
           commerce scam popularly known as “What I ordered VS what I got”, which
           has been a source of frustration in the social and e-commerce space.
-          We bridge the trust gap between customers and product/service
-          providers.
+          We bridge the trust gap between customers and service providers.
         </p>
       </div>
     </div>

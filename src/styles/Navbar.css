@@ -2,7 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 10px 40px;
+  /* border-bottom: 1px solid var(--tertiary-color); */
+  box-shadow: var(--box-shadow);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background: var(--body-background);
 }
 
 .nav-brand img {
@@ -11,14 +17,26 @@
 }
 
 .nav-button button {
-  background: var(--primary-color);
+  background: var(--primary);
   padding: 10px;
   height: 40px;
   border-radius: 3px;
   border: none;
   outline: none;
   cursor: pointer;
-  color: var(--white-color);
+  color: var(--white);
   width: 120px;
   font-weight: 600;
+}
+
+/* =========THE RESPONSIVENESS========= */
+@media (max-width: 500px) {
+  .nav {
+    padding: 20px 10px;
+  }
+
+  .nav-brand img {
+    width: 90px;
+    margin-top: -15px;
+  }
 }

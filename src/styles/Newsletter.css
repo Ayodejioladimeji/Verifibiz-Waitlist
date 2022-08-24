@@ -6,7 +6,7 @@
   border-radius: 5px;
   box-shadow: var(--shadow);
   margin-bottom: 100px;
-  padding: 70px 10px;
+  padding: 30px 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14,13 +14,15 @@
 
 .newsletter p {
   color: var(--white-color);
-  font-size: var(--font-med);
+  font-size: var(--font-medium);
+  line-height: 30px;
+  font-family: "Roboto";
 }
 
 .waitlist-div {
   margin-top: 40px;
   display: flex;
-  /* border: 1px solid var(--primary-color); */
+  border: 1px solid var(--secondary-color);
   height: 50px;
   border-radius: 25px;
   width: 500px;
@@ -39,9 +41,46 @@
   border-radius: 0 25px 25px 0;
   border: none;
   background: var(--primary-color);
-  color: var(--white-color);
+  color: var(--white);
   cursor: pointer;
   font-weight: 600;
   font-family: var(--nunito);
   font-size: var(--font-mid);
+}
+
+/* THE RESPONSIVENESS */
+@media (max-width: 600px) {
+  .newsletter {
+    width: 95%;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .waitlist-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .waitlist-div {
+    flex-direction: column;
+    height: 100%;
+    border: none;
+  }
+
+  .waitlist-div input {
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid var(--secondary-color);
+  }
+
+  .waitlist-div button {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
 }

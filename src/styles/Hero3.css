@@ -1,32 +1,80 @@
-.hero2 {
+.hero3 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
-.hero2-left {
+.hero3-left {
   width: 45%;
   padding-left: 30px;
 }
 
-.hero2-left h3 {
+.hero3-left h3 {
   font-family: "Roboto";
   color: var(--white-color);
   margin-bottom: 20px;
 }
 
-.hero2-left p {
+.hero3-left p {
   color: var(--white-color);
   line-height: 35px;
-  font-size: var(--font-med);
+  font-size: var(--font-medium);
 }
 
-.hero2-right {
+.hero3-right {
   width: 45%;
 }
 
-.hero2-right img {
+.hero3-right img {
   width: 100%;
   height: 100%;
+}
+
+/* THE RESPONSIVENESS */
+
+@media (max-width: 1000px) {
+  .hero3-left {
+    height: 66%;
+    width: 50%;
+  }
+
+  .hero3-right {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero3 {
+    flex-direction: column-reverse;
+    margin-bottom: 170px;
+  }
+
+  .hero3-left {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: -50px;
+  }
+
+  .hero3-right {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero3 {
+    flex-direction: column-reverse;
+    /* margin-bottom: 10px; */
+  }
+
+  .hero3-left {
+    margin-top: -20px;
+  }
+
+  .hero3-left h1 {
+    font-size: var(--font-bigger);
+  }
 }

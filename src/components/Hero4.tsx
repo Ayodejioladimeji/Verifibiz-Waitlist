@@ -9,7 +9,7 @@ const Hero4 = () => {
       </div>
 
       <div className="hero2-right">
-        <h3>BECOME A VENDOR</h3>
+        <h3>FOR SERVICE PROVIDERS</h3>
         <p>
           Our legit online vendors, with whom we are well pleased. If you don't
           give us, how we wan take? You are not left out. We have a marketplace
