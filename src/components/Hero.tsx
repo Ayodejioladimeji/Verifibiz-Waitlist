@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-left">
         <h3>What we offer</h3>
         <h1>
-          We are bridging the trust gap between customers and service providers.
+          We bridge the trust gap between customers and service providers.
         </h1>
       </div>
 

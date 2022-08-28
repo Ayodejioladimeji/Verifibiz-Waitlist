@@ -14,7 +14,7 @@
 }
 
 .hero-left h3 {
-  color: var(--white-color);
+  color: var(--header-color);
   font-weight: 700;
   font-family: "Roboto";
   font-size: var(--font-med);
@@ -100,6 +100,10 @@
   .hero-right {
     width: 100%;
     padding: 10px;
+  }
+
+  .hero-right img {
+    margin-left: 20px;
   }
 }
 
