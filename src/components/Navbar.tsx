@@ -1,14 +1,14 @@
 import { useState } from "react";
 // import logo
-import logo from "../assets/logo.png";
-import logos from "../assets/logo2.png";
+import logo from "../assets/new-logo-light.png";
+import logos from "../assets/new-logo-lights.png";
 import { Link } from "react-scroll";
 import Toggle from "./../common/Toggle";
 
 //
 // Get theme from localstorage
 const getStorageTheme = () => {
-  let theme: any = "light-theme";
+  let theme: any = "dark-theme";
 
   if (localStorage.getItem("theme")) {
     theme = localStorage.getItem("theme");
