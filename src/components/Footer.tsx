@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="social-icons">
         <a
-          href="https://www.facebook.com/Verifibiz_africa-108734885270817/"
+          href="https://www.facebook.com/Verifibiz-africa-103840109119649/"
           target="_blank"
           rel="noreferrer"
         >

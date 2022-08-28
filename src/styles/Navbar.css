@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 40px;
+  padding: 20px 40px;
   /* border-bottom: 1px solid var(--tertiary-color); */
   box-shadow: var(--box-shadow);
   position: fixed;
@@ -27,6 +27,11 @@
   color: var(--white);
   width: 120px;
   font-weight: 600;
+  transition: var(--transition);
+}
+
+.nav-button button:hover {
+  background: #ef14c8;
 }
 
 /* =========THE RESPONSIVENESS========= */
