@@ -15,6 +15,11 @@ const Newsletter = () => {
     };
 
     try {
+      if (email === "") {
+        return addToast("Please enter your email", {
+          appearance: "error",
+        });
+      }
       await postDataAPI("/newsletter/subscribe", data);
       addToast("Thank you for Subscribing to our Newsletter ", {
         appearance: "success",
