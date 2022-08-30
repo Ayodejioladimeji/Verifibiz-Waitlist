@@ -16,17 +16,24 @@ const Newsletter = () => {
 
     try {
       if (email === "") {
-        return addToast("Please enter your email", {
+        addToast("Please enter your email", {
           appearance: "error",
         });
+        return;
       }
+
       await postDataAPI("/newsletter/subscribe", data);
-      addToast("Thank you for Subscribing to our Newsletter ", {
-        appearance: "success",
-      });
+      addToast(
+        "You have been added to our waitlist. Thanks for your interest in us.",
+        {
+          appearance: "success",
+        }
+      );
       setEmail("");
-    } catch (error) {
-      addToast("Check your network connection", { appearance: "error" });
+    } catch (error: any) {
+      // console.log(error.response.data.error);
+      addToast(error.response.data.error, { appearance: "error" });
+      setEmail("");
     }
   };
 
