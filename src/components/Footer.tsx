@@ -19,7 +19,7 @@ const Footer = () => {
           <i className="fa fa-instagram" aria-hidden="true"></i>
         </a>
         <a
-          href="https://www.instagram.com/verifibiz_africa/"
+          href="https://twitter.com/veri_africa"
           target="_blank"
           rel="noreferrer"
         >
